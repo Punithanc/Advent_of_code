@@ -158,5 +158,5 @@ o2=int(o2[0],2)
 co2=list(co2)
 co2=int(co2[0],2)
 print("life support rating is",co2*o2)
-end=time.time()
-print(end-start)
+print(start - time.time()) # may be better. 
+
